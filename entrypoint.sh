@@ -4,9 +4,8 @@ cd /frps
 
 cat <<-EOF > /frps/frps.ini
 [common]
-bind_port = 80
+bind_port = $PORT
 token = $token
-tls_enable=true
 EOF
 
 echo $PORT
