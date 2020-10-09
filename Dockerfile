@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add --update tzdata
+RUN apk add --update tzdata --no-cache --virtual .build-deps ca-certificates curl
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
