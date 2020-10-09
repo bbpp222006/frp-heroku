@@ -4,6 +4,21 @@
   "keywords": [
     "chausat"
   ],
+  "env": {
+	  "TOKEN": {
+		  "description": "frp server token",
+		  "value": "12345"
+	  },
+	  "DASH": {
+		  "description": "frp server ip",
+		  "value": "www.xxx.com"
+	  },
+	  "PORT": {
+		  "description": "frp server port",
+		  "value": 7000
+	  }
+  },
+
   "repository": "https://github.com/work-chausat/frp-heroku",
   "stack": "container"
 }
