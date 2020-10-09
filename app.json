@@ -8,13 +8,8 @@
 	  "token": {
 		  "description": "frp server token",
 		  "value": "12345"
-	  },
-	  "dash_password": {
-		  "description": "DASH password",
-		  "value": "123456"
 	  }
   },
-
-  "repository": "https://github.com/work-chausat/frp-heroku",
+  "repository": "https://github.com/bbpp222006/frp-heroku",
   "stack": "container"
 }

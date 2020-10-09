@@ -4,14 +4,9 @@ cd /frps
 
 cat <<-EOF > /frps/frps.ini
 [common]
-
-bind_port = 443
-dashboard_port = 80
-dashboard_user = admin
-dashboard_pwd = ${dash_password}
-token = ${token}
-
-
+bind_port = 80
+token = $token
+tls_enable=true
 EOF
 
 echo $PORT
