@@ -5,17 +5,13 @@
     "chausat"
   ],
   "env": {
-	  "TOKEN": {
+	  "token": {
 		  "description": "frp server token",
 		  "value": "12345"
 	  },
-	  "DASH": {
+	  "dash_password": {
 		  "description": "DASH password",
-		  "value": "www.xxx.com"
-	  },
-	  "PORT": {
-		  "description": "frp bind port",
-		  "value": 7000
+		  "value": "123456"
 	  }
   },
 
