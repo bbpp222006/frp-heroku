@@ -10,11 +10,11 @@
 		  "value": "12345"
 	  },
 	  "DASH": {
-		  "description": "frp server ip",
+		  "description": "DASH password",
 		  "value": "www.xxx.com"
 	  },
 	  "PORT": {
-		  "description": "frp server port",
+		  "description": "frp bind port",
 		  "value": 7000
 	  }
   },
